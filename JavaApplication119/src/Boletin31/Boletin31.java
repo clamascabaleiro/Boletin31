@@ -1,6 +1,6 @@
 
 
-package Boletin30;
+package Boletin31;
 
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
  *
  * @author clamascabaleiro
  */
-public class Boletin30 {
+public class Boletin31 {
 
  
       public static ArrayList integrantes = new ArrayList();
@@ -29,6 +29,8 @@ public class Boletin30 {
         for(SeleccionFutbol f: selec){
             JOptionPane.showMessageDialog(null,f);
         }
+       Entrenador.ruedaPrensa();
+       Futbolista.videoPublicitario();
     }
     
 }
